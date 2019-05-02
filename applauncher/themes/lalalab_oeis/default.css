@@ -1,0 +1,172 @@
+/** La La Lab OEIS theme **/
+
+/* quicksand-regular - latin */
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: url('quicksand/quicksand-v9-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Quicksand Regular'), local('Quicksand-Regular'),
+    url('quicksand/quicksand-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('quicksand/quicksand-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('quicksand/quicksand-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('quicksand/quicksand-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('quicksand/quicksand-v9-latin-regular.svg#Quicksand') format('svg'); /* Legacy iOS */
+}
+/* quicksand-700 - latin */
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    src: url('quicksand/quicksand-v9-latin-700.eot'); /* IE9 Compat Modes */
+    src: local('Quicksand Bold'), local('Quicksand-Bold'),
+    url('quicksand/quicksand-v9-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('quicksand/quicksand-v9-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('quicksand/quicksand-v9-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('quicksand/quicksand-v9-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('quicksand/quicksand-v9-latin-700.svg#Quicksand') format('svg'); /* Legacy iOS */
+}
+
+body {
+    background-color: #ff1493;
+    font-family: Quicksand, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+body.mode-app {
+    background-color: #ff1493;
+}
+
+body.mode-app .logo {
+    top: 3vh;
+}
+
+body.mode-app .logo .logo-text-wrapper {
+    transform: scale(0.65);
+}
+
+.appPane {
+    background-color: #fff;
+}
+
+.logo .logo-text {
+    font-family: Quicksand, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.util-button {
+    color: #fff;
+}
+
+.titlePane {
+    display: none;
+}
+
+.overlay .overlay-background {
+    background-color: #fff;
+}
+
+ul.menu-lang li a {
+    color: #000;
+    font-family: Quicksand, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.menu-main {
+    bottom: 12vh;
+}
+
+.menu-main-row {
+    text-align: left;
+}
+
+.menu-main-button {
+    padding: 1vh 1vh 1.5vh 1vh;
+    vertical-align: top;
+}
+
+.menu-main-button .icon {
+    display: none;
+}
+
+.menu-main-button .name {
+    position: relative;
+    font-size: 2vmin;
+    line-height: 1.4;
+    text-align: left;
+    margin-top: 0;
+    height: auto;
+    padding-top: 10px;
+    overflow: visible;
+}
+
+.menu-main-button .name:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 0 4px 2px rgba(255, 255, 255, 0.5);
+}
+
+.appLauncher-7-rows .logo {
+    top: 5vh;
+    height: 8vh;
+}
+
+.appLauncher-7-rows .menu-main {
+    height: 72vh;
+}
+
+.appLauncher-7-rows .menu-main .menu-main-row {
+    height: auto;
+}
+
+body.mode-menu .menu-main-button {
+    transform: scale(1); }
+body.mode-menu .menu-main-row:nth-child(1) .menu-main-button:nth-child(1) {
+    transition-delay: 0.05s; }
+body.mode-menu .menu-main-row:nth-child(1) .menu-main-button:nth-child(2) {
+    transition-delay: 0.1s; }
+body.mode-menu .menu-main-row:nth-child(1) .menu-main-button:nth-child(3) {
+    transition-delay: 0.15s; }
+body.mode-menu .menu-main-row:nth-child(2) .menu-main-button:nth-child(1) {
+    transition-delay: 0.2s; }
+body.mode-menu .menu-main-row:nth-child(2) .menu-main-button:nth-child(2) {
+    transition-delay: 0.25s; }
+body.mode-menu .menu-main-row:nth-child(2) .menu-main-button:nth-child(3) {
+    transition-delay: 0.3s; }
+body.mode-menu .menu-main-row:nth-child(3) .menu-main-button:nth-child(1) {
+    transition-delay: 0.35s; }
+body.mode-menu .menu-main-row:nth-child(3) .menu-main-button:nth-child(2) {
+    transition-delay: 0.4s; }
+body.mode-menu .menu-main-row:nth-child(3) .menu-main-button:nth-child(3) {
+    transition-delay: 0.45s; }
+body.mode-menu .menu-main-row:nth-child(4) .menu-main-button:nth-child(1) {
+    transition-delay: 0.5s; }
+body.mode-menu .menu-main-row:nth-child(4) .menu-main-button:nth-child(2) {
+    transition-delay: 0.55s; }
+body.mode-menu .menu-main-row:nth-child(4) .menu-main-button:nth-child(3) {
+    transition-delay: 0.6s; }
+body.mode-menu .menu-main-row:nth-child(5) .menu-main-button:nth-child(1) {
+    transition-delay: 0.65s; }
+body.mode-menu .menu-main-row:nth-child(5) .menu-main-button:nth-child(2) {
+    transition-delay: 0.7s; }
+body.mode-menu .menu-main-row:nth-child(5) .menu-main-button:nth-child(3) {
+    transition-delay: 0.75s; }
+body.mode-menu .menu-main-row:nth-child(6) .menu-main-button:nth-child(1) {
+    transition-delay: 0.8s; }
+body.mode-menu .menu-main-row:nth-child(6) .menu-main-button:nth-child(2) {
+    transition-delay: 0.85s; }
+body.mode-menu .menu-main-row:nth-child(6) .menu-main-button:nth-child(3) {
+    transition-delay: 0.9s; }
+body.mode-menu .menu-main-row:nth-child(7) .menu-main-button:nth-child(1) {
+    transition-delay: 0.95s; }
+body.mode-menu .menu-main-row:nth-child(7) .menu-main-button:nth-child(2) {
+    transition-delay: 1s; }
+body.mode-menu .menu-main-row:nth-child(7) .menu-main-button:nth-child(3) {
+    transition-delay: 1.05s; }

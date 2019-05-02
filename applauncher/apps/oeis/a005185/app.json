@@ -1,0 +1,1 @@
+{"id":"a005185","version":"1.0.0","main":"../common/index.html?song=A005185","name":{"en":"Hofstadter's Q‑sequence","de":"Hofstadter‑Folge"},"description":{"en":"<em>a(n) = a(n-a(n-1)) + a(n-a(n-2))</em> starting with 1, 1.  One of the great mysteries.","de":"<em>a(n) = a(n-a(n-1)) + a(n-a(n-2))</em>, beginnend mit 1, 1. Eines der gro&szlig;en R&auml;tsel."}}

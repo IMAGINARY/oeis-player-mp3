@@ -1,0 +1,43 @@
+.btn-group {
+  .btn {
+    @include quicksandBold;
+    font-size: 1.1rem;
+    border-radius: 1.15rem;
+    background-color: $color-gray;
+    border-color: $color-gray;
+
+    &:first-child {
+      padding-left: 1.1em;
+    }
+
+    &:last-child {
+      padding-right: 1.1em;
+    }
+  }
+
+  .btn-secondary:not(:disabled):not(.disabled).active:focus,
+  .btn-secondary:not(:disabled):not(.disabled):active:focus,
+  .show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+  }
+
+  .btn-secondary.disabled, .btn-secondary:disabled {
+    background-color: $color-gray;
+    opacity: 1;
+    color: #9ba2a9;
+  }
+
+  .btn-secondary:not(:disabled):not(.disabled).active,
+  .btn-secondary:not(:disabled):not(.disabled):active {
+    background-color: $color-black;
+    border-color: $color-black;
+  }
+}
+
+.btn-group-speed {
+  display: block;
+  margin-bottom: 0.6em;
+  .btn {
+    min-width: 4em;
+  }
+}

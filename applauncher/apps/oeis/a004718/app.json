@@ -1,0 +1,1 @@
+{"id":"a004718","version":"1.0.0","main":"../common/index.html?song=A004718","name":{"en":"The Danish composer Per Nørgård's  infinity sequence","de":"Unendlichkeitsreihe des dänischen Komponisten Per Nørgård"},"description":{"en":"a(2n) = -a(n), a(2n+1) = a(n) + 1 starting with a(0) = 0.","de":"a(2n) = -a(n), a(2n+1) = a(n) + 1, beginnend mit a(0) = 0."}}

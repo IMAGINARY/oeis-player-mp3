@@ -1,0 +1,15 @@
+$font-stack-quicksand: Quicksand, Helvetica, Arial, sans-serif;
+
+@mixin quicksand {
+  font-family: $font-stack-quicksand;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+@mixin quicksandBold {
+  font-family: $font-stack-quicksand;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: normal;
+}

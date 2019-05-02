@@ -1,0 +1,112 @@
+.song_info {
+  @include quicksand;
+  margin-bottom: 1.6em;
+  line-height: 1.3;
+}
+
+.song_info-field-id {
+}
+
+.song_info-field-title {
+  font-weight: bold;
+  font-size: 2.5em;
+  line-height: 0.9;
+  margin-left: -0.05em;
+  margin-bottom: 0.4em;
+}
+
+.song_info-field-terms {
+  margin-bottom: 0.5em;
+}
+
+.song_info-field-description {
+
+}
+
+.control-button-l {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  vertical-align: top;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: none;
+  background-color: $color-black;
+  background-repeat: no-repeat;
+  background-position: 50% center;
+  background-size: 45%;
+  color: $color-white;
+
+  &:focus {
+    outline: none;
+  }
+
+  &.disabled {
+    opacity: 0.5;
+    background-image: none !important;
+  }
+}
+
+.control-play {
+  background-image: url('../img/fa/play-solid.svg');
+  background-position: 59% center;
+
+  &.playing {
+    background-image: url('../img/fa/stop-solid.svg');
+    background-position: 50% center;
+  }
+
+  /* preloader */
+  &:after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../img/fa/stop-solid.svg');
+  }
+
+  &:before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../img/fa/play-solid.svg');
+  }
+}
+
+.control-button-l {
+  .control-button-loader {
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    opacity: 0.6;
+  }
+}
+
+.control-rewind {
+  background-image: url('../img/fa/fast-backward-solid.svg');
+}
+
+.speed-field {
+  input[type=range] {
+    width: 300px;
+  }
+}
+
+.meter {
+  @include quicksand;
+  font-weight: bold;
+  font-size: 1.5em;
+}

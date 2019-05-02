@@ -1,0 +1,234 @@
+{
+  "mp3_store_remote_url": "https://imaginaryexhibits.s3.amazonaws.com/oeis-player/mp3-192kbps",
+  "mp3_store_local_path": "./cache",
+  "sequences": [
+    {
+      "id": "A000010",
+      "title": {
+        "en": "Euler's totient function",
+        "de": "Eulersche Phi-Funktion"
+      },
+      "terms": "1, 1, 2, 2, 4, 2, 6, 4, 6, 4, 10, 4, 12, 6, 8, 8, 16, 6, 18, 8, 12, 10, 22, 8, ...",
+      "description": {
+        "en": "Amount of numbers <= n and relatively prime to n.",
+        "de": "Sie gibt f&uuml;r jede nat&uuml;rliche Zahl <em>n</em> an, wie viele zu <em>n</em> teilerfremde nat&uuml;rliche Zahlen es gibt, die nicht gr&ouml;&szlig;er als <em>n</em> sind"
+      }
+    },
+    {
+      "id": "A000120",
+      "title": {
+        "en": "Write n in base 2, count 1's",
+        "de": "Anzahl der Einsen in der binären Darstellung von n"
+      },
+      "terms": "0, 1, 1, 2, 1, 2, 2, 3, 1, 2, 2, 3, 2, 3, 3, 4, 1, 2, 2, 3, 2, 3, 3, 4, 2, 3, ...",
+      "description": {
+        "en": "Fractal. Basic sequence in communication and computers.",
+        "de": "Fraktal. Grundlegende Sequenz in der Kommunikations- und Computertechnik."
+      }
+    },
+    {
+      "id": "A001223",
+      "title": {
+        "en": "Differences between primes",
+        "de": "Differenzen zwischen Primzahlen"
+      },
+      "terms": "1, 2, 2, 4, 2, 4, 2, 4, 6, 2, 6, 4, 2, 4, 6, 6, 2, 6, 4, 2, 6, 4, 6, 8, 4, 2, ...",
+      "description": {
+        "en": "The primes themselves grow too rapidly, but their differences sound great.",
+        "de": "Die Primzahlen selbst wachsen zu schnell, aber ihre Differenzen h&ouml;ren sich gut an."
+      }
+    },
+    {
+      "id": "A003602",
+      "title": {
+        "en": "Kimberling's paraphrases",
+        "de": "Clark Kimberlings Umschreibungen"
+      },
+      "terms": "1, 1, 2, 1, 3, 2, 4, 1, 5, 3, 6, 2, 7, 4, 8, 1, 9, 5, 10, 3, 11, 6, 12, 2, 13, ...",
+      "description": {
+        "en": "If n = (2k-1)*2^m then a(n) = k.",
+        "de": "<em>a(n) = k</em> wenn <em>n</em> die Form (2k-1)*2<sup>m</sup> hat."
+      }
+    },
+    {
+      "id": "A004718",
+      "title": {
+        "en": "The Danish composer Per Nørgård's  infinity sequence",
+        "de": "Unendlichkeitsreihe des dänischen Komponisten Per Nørgård"
+      },
+      "terms": "0, 1, -1, 2, 1, 0, -2, 3, -1, 2, 0, 1, 2, -1, -3, 4, 1, 0, -2, 3, 0, 1, -1, 2, ...",
+      "description": {
+        "en": "a(2n) = -a(n), a(2n+1) = a(n) + 1 starting with a(0) = 0.",
+        "de": "a(2n) = -a(n), a(2n+1) = a(n) + 1, beginnend mit a(0) = 0."
+      }
+    },
+    {
+      "id": "A005132",
+      "title": {
+        "en": "Recamán's sequence",
+        "de": "Rekursive Definition am Beispiel der Sequenz von Recamán"
+      },
+      "terms": "0, 1, 3, 6, 2, 7, 13, 20, 12, 21, 11, 22, 10, 23, 9, 24, 8, 25, 43, 62, 42, 63, ...",
+      "description": {
+        "en": "Start with 0, then subtract or add 1, 2, 3, .... You first try to subtract, but you can only do that if it gives a positive number that is not already in the sequence, otherwise you must add.",
+        "de": "Man beginnt mit 0 und addiert dann 1, 2, 3, .... Zuerst versucht man zu subtrahieren, aber nur, wenn sich eine positive Zahl ergibt, die noch nicht in der Sequenz ist, ansonsten addiert man."
+      }
+    },
+    {
+      "id": "A005185",
+      "title": {
+        "en": "Hofstadter's Q‑sequence",
+        "de": "Hofstadter‑Folge"
+      },
+      "terms": "1, 1, 2, 3, 3, 4, 5, 5, 6, 6, 6, 8, 8, 8, 10, 9, 10, 11, 11, 12, 12, 12, 12, ...",
+      "description": {
+        "en": "<em>a(n) = a(n-a(n-1)) + a(n-a(n-2))</em> starting with 1, 1.  One of the great mysteries.",
+        "de": "<em>a(n) = a(n-a(n-1)) + a(n-a(n-2))</em>, beginnend mit 1, 1. Eines der gro&szlig;en R&auml;tsel."
+      }
+    },
+    {
+      "id": "A006577",
+      "title": {
+        "en": "Steps to reach 1 in 3x+1 problem",
+        "de": "Im 3x+1-Problem die Anzahl der Schritte bis 1 erreicht wird"
+      },
+      "terms": "0, 1, 7, 2, 5, 8, 16, 3, 19, 6, 14, 9, 9, 17, 17, 4, 12, 20, 20, 7, 7, 15, 15, ...",
+      "description": {
+        "en": "If even, divide by 2; if odd, multiply by 3 and add 1. Does it always reach 1? No one knows!",
+        "de": "Gerade Zahlen werden durch 2 dividiert, ungerade mit 3 mutlipliziert und um 1 erh&ouml;ht. Erreicht diese Folge immer? Bis heute ungel&ouml;st."
+      }
+    },
+    {
+      "id": "A007318",
+      "title": {
+        "en": "Pascal's triangle",
+        "de": "Pascalsches Dreieck"
+      },
+      "terms": "1, 1, 1, 1, 2, 1, 1, 3, 3, 1, 1, 4, 6, 4, 1, 1, 5, 10, 10, 5, 1, 1, 6, 15, 20, ...",
+      "description": {
+        "en": "Make a triangle, rows have 1 at each end, other entries are sum of 2 terms about it.",
+        "de": "In den Reihen in einem Dreieck steht an beiden Enden eine 1, die anderen Pl&auml;tze werden mit der Summe der beiden Zahlen &uuml;ber dem Platz besetzt."
+      }
+    },
+    {
+      "id": "A025480",
+      "title": {
+        "en": "A simple fractal",
+        "de": "Ein einfaches Fraktal"
+      },
+      "terms": "0, 0, 1, 0, 2, 1, 3, 0, 4, 2, 5, 1, 6, 3, 7, 0, 8, 4, 9, 2, 10, 5, 11, 1, 12, ...",
+      "description": {
+        "en": "<em>a(2n) = n, a(2n+1) = a(n)</em>",
+        "de": "<em>a(2n) = n, a(2n+1) = a(n)</em>"
+      }
+    },
+    {
+      "id": "A056239",
+      "title": {
+        "en": "Used by Danish composer Aage Rasmussen",
+        "de": "Von dem dänischen Komponisten Aage Rasmussen benutzt"
+      },
+      "terms": "0, 1, 2, 2, 3, 3, 4, 3, 4, 4, 5, 4, 6, 5, 5, 4, 7, 5, 8, 5, 6, 6, 9, 5, 6, 7, ...",
+      "description": {
+        "en": "If <em>n = Product_{k >= 1} (p_k)^(c_k)</em> where <em>p_k</em> is <em>k</em>-th prime then <em>a(n) = Sum_{k >= 1} k*c_k</em>.",
+        "de": "Mit <em>n = Product_{k >= 1} (p_k)^(c_k)</em>, wobei <em>p_k</em> die <em>k</em>-te Primzahl ist, ist <em>a(n) = Sum_{k >= 1} k*c_k</em>."
+      }
+    },
+    {
+      "id": "A117153",
+      "title": {
+        "en": "Floretions: a quaternion-generated sequence",
+        "de": "Floretions: eine Sequenz, die mit Quaternionen generiert wird"
+      },
+      "terms": "3, -3, 9, -12, -15, 0, 33, -42, -36, 30, 15, -54, -6, 63, -63, -15, 54, -36, ...",
+      "description": {
+        "en": "",
+        "de": ""
+      }
+    },
+    {
+      "id": "A220952",
+      "title": {
+        "en": "Donald Knuth's twisted enumeration of the natural numbers",
+        "de": "Donald Knuths verschränkte Aufzählung der natürlichen Zahlen"
+      },
+      "terms": "0, 1, 2, 3, 4, 9, 14, 19, 18, 17, 16, 11, 12, 13, 8, 7, 6, 5, 10, 15, 20, 21, ...",
+      "description": {
+        "en": "",
+        "de": ""
+      }
+    },
+    {
+      "id": "A258200",
+      "title": {
+        "en": "Related to what happens when you repeatedly take the tangent and round down to an integer",
+        "de": "Im Zusammenhang mit einer Folge, bei der wiederholt der Tangens und eine Rundung auf die nächst-niedrigere ganze Zahl angewendet wird"
+      },
+      "terms": "3, 19, 3, 19, 3, 19, 3, 19, 3, 13, 6, 3, 7, 6, 6, 3, 7, 6, 6, 3, 13, 6, 3, 3, ...",
+      "description": {
+        "en": "If you start with n, and repeatedly take floor(tangent(x)), then it is conjectured that you always reach either 0 or 1. This is the differences between the numbers that reach 1.",
+        "de": "Es wird vermutet, dass sich schlie&szlig;lich immer entweder 0 oder 1 ergibt. Die Folge hier ist die Differenz der Zahlen, bei denen sich 1 ergibt."
+      }
+    },
+    {
+      "id": "A276204",
+      "title": {
+        "en": "Avoids certain arithmetic progressions",
+        "de": "Vermeidet bestimmte arithmetische Folgen"
+      },
+      "terms": "0, 0, 1, 0, 0, 1, 2, 2, 1, 0, 0, 1, 0, 0, 1, 2, 2, 1, 4, 4, 1, 4, 4, 1, 2, 2, ...",
+      "description": {
+        "en": "If <em>j-i = k-j</em>, you can't have <em>a(i) + a(j) = a(k)</em>. Always choose the smallest permitted value.",
+        "de": "Wenn <em>j-i = k-j</em>, dann ist <em>a(i) + a(j) = a(k)</em> nicht erlaubt. Es wird immer der kleinste erlaubte Wert in die Folge aufgenommen."
+      }
+    },
+    {
+      "id": "A276207",
+      "title": {
+        "en": "Avoids all arithmetic progressions",
+        "de": "Vermeidet alle arithmetische Folgen"
+      },
+      "terms": "0, 0, 1, 0, 0, 2, 4, 1, 1, 0, 0, 5, 0, 0, 3, 7, 2, 3, 2, 4, 1, 1, 12, 1, 5, 1, ...",
+      "description": {
+        "en": "Like the previous sequence, but must avoid more things. Can you hear how much wilder this one is?",
+        "de": "Wie die vorherige Sequenz, aber es ist noch weniger erlaubt. H&ouml;ren sie, wie viel unregelm&auml;&szlig;iger das klingt?"
+      }
+    },
+    {
+      "id": "A279125",
+      "title": {
+        "en": "You can have a repeated term, a(i)=a(j), but only if i AND j is zero",
+        "de": "Die Wiederholung eines Terms ist erlaubt, aber nur wenn i bitweises-UND j = 0"
+      },
+      "terms": "0, 0, 1, 0, 2, 3, 4, 0, 3, 2, 5, 1, 6, 7, 8, 0, 7, 6, 9, 5, 10, 11, 12, 4, 13, ...",
+      "description": {
+        "en": "Always choose the smallest permitted value.",
+        "de": "Es wird jeweils der kleinste erlaubte Wert in die Folge aufgenommen."
+      }
+    },
+    {
+      "id": "A281488",
+      "title": {
+        "en": "a(n) = -Sum_{d divides (n-2), 1 <= d < n} a(d)",
+        "de": "a(n) = -Sum_{d teilt (n-2), 1 <= d < n} a(d)"
+      },
+      "terms": "1, -1, -1, 0, 0, 0, -1, 1, 0, -1, 0, 1, -1, 0, 0, 1, 0, -2, -1, 3, 0, -2, 1, 2, ...",
+      "description": {
+        "en": "The graph is equally strange.",
+        "de": "Der Graph ist genauso seltsam."
+      }
+    },
+    {
+      "id": "A318921",
+      "title": {
+        "en": "Dirge for Claude L.",
+        "de": "Trauerlied für Claude L."
+      },
+      "terms": "0, 0, 0, 1, 0, 0, 1, 3, 0, 0, 0, 1, 2, 1, 3, 7, 0, 0, 0, 1, 0, 0, 1, 3, 4, 2, ...",
+      "description": {
+        "en": "In binary expansion of n, delete one symbol from each run.",
+        "de": "In der Bin&auml;rdarstellung von <em>n</em> wird eine Ziffer in jeder Folge von gleichen Ziffern gel&ouml;scht."
+      }
+    }
+  ]
+}

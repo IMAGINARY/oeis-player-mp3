@@ -36,7 +36,11 @@ export default class PlayerUI extends ImComponent {
       )
     );
 
-    const controlLeft = $('<div>').addClass('col-md-2').appendTo(controlRow);
+    const controlLeft = $('<div>')
+      .addClass('col-md-2')
+      .addClass('col-sm-3')
+      .addClass('col-4')
+      .appendTo(controlRow);
 
     this.playButton = new PlayButton({
       enabled: false,

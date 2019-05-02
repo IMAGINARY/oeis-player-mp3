@@ -27,6 +27,13 @@
     url('quicksand/quicksand-v9-latin-700.svg#Quicksand') format('svg'); /* Legacy iOS */
 }
 
+html,
+body {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
 body {
     background-color: #ff1493;
     font-family: Quicksand, Helvetica, Arial, sans-serif;
@@ -58,6 +65,11 @@ body.mode-app .logo .logo-text-wrapper {
     color: #fff;
 }
 
+.util-button-close {
+    margin-top: 20vw;
+    transition: margin-top 0.5s;
+}
+
 .titlePane {
     display: none;
 }
@@ -74,6 +86,12 @@ ul.menu-lang li a {
 
 .menu-main {
     bottom: 12vh;
+}
+
+@media (min-aspect-ratio: 4/3) {
+    .menu-main {
+        bottom: 4vh;
+    }
 }
 
 .menu-main-row {

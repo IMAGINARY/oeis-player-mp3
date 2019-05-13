@@ -1,10 +1,11 @@
 /**
- * Builds appLauncher2 apps for each song from the definitions in songs/data.json
+ * Builds appLauncher2 apps definitions (app.json) for each song from the song database
+ * in applauncher/apps/common/data.json
  */
 const fs = require('fs');
-const songData = require('../songs/data.json');
+const songData = require(`${__dirname}/../applauncher/apps/oeis/common/data.json`);
 
-const outDir = `${__dirname}/../applauncher/apps`;
+const outDir = `${__dirname}/../applauncher/apps/oeis`;
 
 songData.sequences.forEach((sequence) => {
   const appName = sequence.id.toLowerCase();

@@ -17,7 +17,7 @@
     {
       "id": "A000120",
       "title": {
-        "en": "Write n in base 2, count 1's",
+        "en": "Write n in base 2, count&nbsp;1's",
         "de": "Anzahl der Einsen in der binären Darstellung von n"
       },
       "terms": "0, 1, 1, 2, 1, 2, 2, 3, 1, 2, 2, 3, 2, 3, 3, 4, 1, 2, 2, 3, 2, 3, 3, 4, 2, 3, ...",
@@ -70,7 +70,7 @@
       },
       "terms": "0, 1, 3, 6, 2, 7, 13, 20, 12, 21, 11, 22, 10, 23, 9, 24, 8, 25, 43, 62, 42, 63, ...",
       "description": {
-        "en": "Start with 0, then subtract or add 1, 2, 3, .... You first try to subtract, but you can only do that if it gives a positive number that is not already in the sequence, otherwise you must add.",
+        "en": "Start with 0, then either subtract or add 1, 2, 3, .... Subtract if the result is a positive number that is not already in the sequence, otherwise add.",
         "de": "Man beginnt mit 0 und addiert dann 1, 2, 3, .... Zuerst versucht man zu subtrahieren, aber nur, wenn sich eine positive Zahl ergibt, die noch nicht in der Sequenz ist, ansonsten addiert man."
       }
     },
@@ -106,7 +106,7 @@
       },
       "terms": "1, 1, 1, 1, 2, 1, 1, 3, 3, 1, 1, 4, 6, 4, 1, 1, 5, 10, 10, 5, 1, 1, 6, 15, 20, ...",
       "description": {
-        "en": "Make a triangle, rows have 1 at each end, other entries are sum of 2 terms about it.",
+        "en": "Make a triangle, rows have 1 at each end, other entries are the sum of the two terms over it.",
         "de": "In den Reihen in einem Dreieck steht an beiden Enden eine 1, die anderen Pl&auml;tze werden mit der Summe der beiden Zahlen &uuml;ber dem Platz besetzt."
       }
     },
@@ -166,7 +166,7 @@
       },
       "terms": "3, 19, 3, 19, 3, 19, 3, 19, 3, 13, 6, 3, 7, 6, 6, 3, 7, 6, 6, 3, 13, 6, 3, 3, ...",
       "description": {
-        "en": "If you start with n, and repeatedly take floor(tangent(x)), then it is conjectured that you always reach either 0 or 1. This is the differences between the numbers that reach 1.",
+        "en": "If you start with n, and repeatedly take floor(tangent(x)), then it is conjectured that you always reach either 0 or 1. These are the differences between the numbers that reach 1.",
         "de": "Es wird vermutet, dass sich schlie&szlig;lich immer entweder 0 oder 1 ergibt. Die Folge hier ist die Differenz der Zahlen, bei denen sich 1 ergibt."
       }
     },
@@ -197,20 +197,20 @@
     {
       "id": "A279125",
       "title": {
-        "en": "You can have a repeated term, a(i)=a(j), but only if i AND j is zero",
+        "en": "You can have a repeated term, a(i)=a(j), but only if i&nbsp;&amp;&nbsp;j is zero (&amp;&nbsp;is the bitwise&nbsp;AND)",
         "de": "Die Wiederholung eines Terms ist erlaubt, aber nur wenn i bitweises-UND j = 0"
       },
       "terms": "0, 0, 1, 0, 2, 3, 4, 0, 3, 2, 5, 1, 6, 7, 8, 0, 7, 6, 9, 5, 10, 11, 12, 4, 13, ...",
       "description": {
-        "en": "Always choose the smallest permitted value.",
+        "en": "Always choose the smallest allowed value.",
         "de": "Es wird jeweils der kleinste erlaubte Wert in die Folge aufgenommen."
       }
     },
     {
       "id": "A281488",
       "title": {
-        "en": "a(n) = -Sum_{d divides (n-2), 1 <= d < n} a(d)",
-        "de": "a(n) = -Sum_{d teilt (n-2), 1 <= d < n} a(d)"
+        "en": "a(n) = &minus;Sum_{d&nbsp;divides&nbsp;(n&minus;2), 1&nbsp;<=&nbsp;d&nbsp;<&nbsp;n} a(d)",
+        "de": "a(n) = &minus;Sum_{d&nbsp;teilt&nbsp;(n&minus;2), 1&nbsp;<=&nbsp;d&nbsp;<&nbsp;n} a(d)"
       },
       "terms": "1, -1, -1, 0, 0, 0, -1, 1, 0, -1, 0, 1, -1, 0, 0, 1, 0, -2, -1, 3, 0, -2, 1, 2, ...",
       "description": {
@@ -226,7 +226,7 @@
       },
       "terms": "0, 0, 0, 1, 0, 0, 1, 3, 0, 0, 0, 1, 2, 1, 3, 7, 0, 0, 0, 1, 0, 0, 1, 3, 4, 2, ...",
       "description": {
-        "en": "In binary expansion of n, delete one symbol from each run.",
+        "en": "In the binary expansion of n, delete one symbol from each run.",
         "de": "In der Bin&auml;rdarstellung von <em>n</em> wird eine Ziffer in jeder Folge von gleichen Ziffern gel&ouml;scht."
       }
     }
